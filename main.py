@@ -1,6 +1,6 @@
 import copy
 
-def create_flow(service_spec, deployment_spec, flow_uuid, api_key):
+def create_flow(service_spec, deployment_spec, flow_uuid):
     modified_deployment_spec = copy.deepcopy(deployment_spec)
 
     return {
